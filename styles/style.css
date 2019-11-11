@@ -1,0 +1,53 @@
+div{
+    border: black;
+    text-align: center;
+    background-color: rgb(236, 210, 175);
+}
+
+#a{
+    width: 480px;
+    height: 75px;
+}
+
+#b{
+    width: 480px;
+    height: 150px;
+
+}
+
+#c{
+    width: 480px;
+    height: 125px;
+
+}
+
+#d{
+    width: 480px;
+    height: 125px;
+}
+
+#e{
+    width: 240px;
+    height: 250px;
+}
+
+#f{
+    width: 240px;
+    height: 250px;
+    float: right;
+}
+
+#g{
+    width: 240px;
+    height: 250px;
+}
+
+#h{
+    width: 240px;
+    height: 250px;
+}
+
+#i{
+    width: 480px;
+    height: 80px;
+}
