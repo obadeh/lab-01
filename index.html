@@ -1,28 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lab-5b</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/module.css">
 </head>
 
 <body>
-    
-    <div id="a">a</div>
- <section id="main">
-    <div id="b">b</div>
-    <div id="c">c</div>
-    <div id="d">d</div>
- <div id="mid">
-    <div id="e">e</div>
-    <div id="f">f</div>
-    <div id="g">g</div>
-    <div id="h">h</div>
- </div>
-    <div id="i">i</div>
- </section>
+  <header class = "a">
+    a
+  </header>
+ 
+  <main>
+    <div class = "flex-container-column">
+      <aside class = "b flex-container-column">
+          b
+      </aside>
+    </div>
+    <div class = "flex-container-column">
+        <div class = "flex-container-column" >  
+              <div class = "flex-container-row"> 
+                <div class = "cd c"> c </div>
+                <div class = "cd d"> d </div>
+              </div>
+        <div class = "flex-container-row">
+                <div class = "efgh e"> e </div>
+                <div class = "efgh f"> f </div>
+                <div class = "efgh g"> g </div>
+                <div class = "efgh h"> h </div>
+          </div>
+           <footer class = "footer i"> i </footer>
+          </div>  
+    </div>
+  </main>
+ 
 </body>
-
 </html>
